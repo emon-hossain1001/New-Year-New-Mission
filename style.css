@@ -187,7 +187,8 @@ header {
     width: 25%;
 }
 
-.offer-1-title, .sale-title {
+.offer-1-title,
+.sale-title {
     font-family: "Inter", sans-serif;
     color: rgb(255, 0, 0);
     font-size: 24px;
@@ -202,7 +203,9 @@ header {
     line-height: 20px;
 }
 
-.offer-1-description, .offer-2-description, .sale-description {
+.offer-1-description,
+.offer-2-description,
+.sale-description {
     font-family: "Inter", sans-serif;
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
@@ -230,4 +233,16 @@ header {
     font-size: 72px;
     font-weight: 900;
     line-height: 20px;
+}
+
+/* Bonus section */
+
+.bonus {
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.border {
+    border: 50px solid rgb(255, 0, 0);
+    border-radius: 16px 0px 16px 16px;
 }
