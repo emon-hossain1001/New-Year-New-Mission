@@ -155,3 +155,64 @@ header {
     background: none;
     color: rgb(7, 2, 17);
 }
+
+/* offer section */
+
+.offer {
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-1 {
+    width: 30%;
+}
+
+.offer-image {
+    width: 35%;
+}
+
+.image {
+    border-radius: 50%;
+    border: 10px solid rgb(255, 0, 0);
+    padding: 15px;
+}
+
+.offer-2 {
+    width: 25%;
+}
+
+.offer-1-title {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 5px;
+}
+
+.offer-1-intro {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.offer-1-description, .offer-2-description {
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.offer-2-title {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 5px;
+}
