@@ -3,6 +3,8 @@
 /* common shared style */
 body {
     font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
 }
 
 .font-inter {
@@ -10,3 +12,58 @@ body {
 }
 
 /* header related style */
+header {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('./resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 1320px;
+    margin: 30px auto;
+    padding: 177px 0px;
+    border: none;
+    border-radius: 16px;
+}
+
+.header-info {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.header-title {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+/* discount section */
+
+.discount-container {
+    font-family: "Inter", sans-serif;
+    max-width: 802px;
+    text-align: center;
+    margin: 120px auto;
+
+}
+
+.discount-title {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.discount-info {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.discount-item {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 0px;
+}
