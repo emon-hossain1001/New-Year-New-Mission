@@ -188,7 +188,8 @@ header {
 }
 
 .offer-1-title,
-.sale-title, .portfolio-heading {
+.sale-title,
+.portfolio-heading {
     font-family: "Inter", sans-serif;
     color: rgb(255, 0, 0);
     font-size: 24px;
@@ -196,7 +197,8 @@ header {
     line-height: 5px;
 }
 
-.offer-1-intro, .portfolio-title {
+.offer-1-intro,
+.portfolio-title {
     color: rgb(7, 2, 17);
     font-size: 48px;
     font-weight: 900;
@@ -206,8 +208,7 @@ header {
 .offer-1-description,
 .offer-2-description,
 .sale-description,
-.portfolio-info
-{
+.portfolio-info {
     font-family: "Inter", sans-serif;
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
@@ -272,3 +273,42 @@ header {
     max-width: 65%;
 }
 
+/* newsletter section */
+
+.newsletter {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0px;
+}
+
+#user-email {
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    padding: 20px 30px 20px 60px;
+    border: none;
+}
+
+.btn-email {
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 20px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-email:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(7, 2, 17);
+}
+
+.input-email {
+    display: flex;
+    justify-content: center;
+}
