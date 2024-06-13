@@ -312,3 +312,38 @@ header {
     display: flex;
     justify-content: center;
 }
+/* footer section */
+
+footer {
+    font-family: "Inter", sans-serif;
+    background: rgb(7, 2, 17);
+    padding: 120px 140px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address, .phone, .website {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.phone, .website {
+    line-height: 10px;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 45px;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: space-between;
+}
